@@ -32,7 +32,7 @@ var contador = 0;
 var acumulador = 0;
 
 alert("Bienvenido a Cachipun 2.0 ¿Te animas a jugar contra la máquina?")
-vecesjugar = parseInt(prompt("¿Cuántos juegos deseas realizar? Ingresa tu opción"));
+var vecesjugar = parseInt(prompt("¿Cuántos juegos deseas realizar? Ingresa tu opción"));
 alert("¿Estás listo?..............¡Comencemos!")
 while (contador != vecesjugar) {
     contador++;
